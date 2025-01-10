@@ -24,7 +24,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend/housepoint-counter
+      context: ./frontend/openCTF
       dockerfile: Dockerfile
     ports:
       - 80:80
